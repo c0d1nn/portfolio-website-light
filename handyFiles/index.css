@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-text-primary-color {
+  background-image: linear-gradient(to right, #d46307, #c437d7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+body {
+  background-image: 
+  linear-gradient(to right, #f0f0f0 1px, transparent 1px),
+  linear-gradient(to bottom, #f0f0f0 1px, transparent 1px),
+  radial-gradient(circle 500px at 50% 200px, #e3ade4, transparent);
+  background-size: 4rem 4rem, 4rem 4rem, auto auto;
+  background-repeat: repeat;
+}
